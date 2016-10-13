@@ -1,7 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
-const routes = require('./app/routes');
+const routes = require('./../routes');
 
 module.exports = function (server) {
 
@@ -20,9 +20,9 @@ module.exports = function (server) {
         hbs: require('handlebars'),
       },
       relativeTo: __dirname,
-      path: './app/views',
-      layoutPath: './app/views/layout',
-      partialsPath: './app/views/partials',
+      path: '../../views',
+      layoutPath: '../../views/layout',
+      partialsPath: '../../views/partials',
       layout: true,
       isCached: false,
     });
