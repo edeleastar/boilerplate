@@ -18,7 +18,7 @@
     "lodash": "^4.16.4",
     "mongoose-seeder": "^1.2.1",
     "vision": "^4.1.0"
-  }
+  },
   "engines": {
     "node": ">= 6.0.0"
   }
