@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edeleastar/boilerplate.git"
+  },
+  "author": "Eamonn de Leastar",
   "license": "ISC",
   "dependencies": {
     "boom": "^4.1.0",
@@ -20,6 +24,6 @@
     "vision": "^4.1.0"
   },
   "engines": {
-    "node": ">= 6.0.0"
+    "node": "4.5.0"
   }
 }
