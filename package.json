@@ -4,6 +4,7 @@
   "description": "a boilerplate for WIT Computing Projects",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,7 @@
   "dependencies": {
     "boom": "^4.1.0",
     "handlebars": "^4.0.5",
-    "hapi": "^13.1.0",
+    "hapi": "^15.1.1",
     "hapi-auth-cookie": "^6.1.1",
     "inert": "^4.0.2",
     "joi": "^9.1.1",
