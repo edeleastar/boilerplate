@@ -1,5 +1,5 @@
-const Assets = require('./app/controllers/assets');
-const Application = require('./app/controllers/application');
+const Assets = require('./controllers/assets');
+const Application = require('./controllers/application');
 
 module.exports = [
 
