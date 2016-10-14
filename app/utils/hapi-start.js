@@ -1,9 +1,11 @@
 'use strict';
 
 const Hapi = require('hapi');
-const routes = require('./../routes');
 
-module.exports = function (server) {
+module.exports = function (routes) {
+
+  const server = new Hapi.Server();
+  server.connection({ port: process.env.PORT || 4000 });
 
   server.register([
     require('inert'),

@@ -1,6 +1,9 @@
+'use strict';
+
+const start = require('./utils/hapi-start.js');
 const Application = require('./controllers/application');
 
-module.exports = [
+const routes = [
 
   { method: 'GET', path: '/', config: Application.index },
   { method: 'GET', path: '/about', config: Application.about },
@@ -8,3 +11,4 @@ module.exports = [
   { method: 'GET', path: '/{param*}', config: { auth: false }, handler: { directory: { path: 'public', } }, },
 ];
 
+start(routes);
