@@ -1,6 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
+require('../models/db.js');
 
 module.exports = function (routes) {
 

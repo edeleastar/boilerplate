@@ -15,16 +15,14 @@
   "license": "ISC",
   "dependencies": {
     "boom": "^4.1.0",
+    "camo": "^0.12.2",
     "handlebars": "^4.0.5",
     "hapi": "^15.1.1",
     "hapi-auth-cookie": "^6.1.1",
     "inert": "^4.0.2",
     "joi": "^9.1.1",
     "lodash": "^4.16.4",
-    "mongoose-seeder": "^1.2.1",
+    "mongodb": "^2.2.11",
     "vision": "^4.1.0"
-  },
-  "engines": {
-    "node": "4.4.3"
   }
 }
